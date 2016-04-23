@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABAA6A6B1CCB6C4B000952FE /* UIControl+ActionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A6A1CCB6C4B000952FE /* UIControl+ActionRecord.m */; };
+		ABAA6A6E1CCB6C75000952FE /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A6D1CCB6C75000952FE /* RecordButton.m */; };
 		E5BD69EA1CCB58050058D8AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD69E91CCB58050058D8AD /* main.m */; };
 		E5BD69ED1CCB58050058D8AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD69EC1CCB58050058D8AD /* AppDelegate.m */; };
 		E5BD69F01CCB58050058D8AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD69EF1CCB58050058D8AD /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABAA6A691CCB6C4B000952FE /* UIControl+ActionRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActionRecord.h"; sourceTree = "<group>"; };
+		ABAA6A6A1CCB6C4B000952FE /* UIControl+ActionRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionRecord.m"; sourceTree = "<group>"; };
+		ABAA6A6C1CCB6C75000952FE /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		ABAA6A6D1CCB6C75000952FE /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
 		E5BD69E51CCB58050058D8AD /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD69E91CCB58050058D8AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5BD69EB1CCB58050058D8AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 				E5BD69EC1CCB58050058D8AD /* AppDelegate.m */,
 				E5BD69EE1CCB58050058D8AD /* ViewController.h */,
 				E5BD69EF1CCB58050058D8AD /* ViewController.m */,
+				ABAA6A691CCB6C4B000952FE /* UIControl+ActionRecord.h */,
+				ABAA6A6A1CCB6C4B000952FE /* UIControl+ActionRecord.m */,
+				ABAA6A6C1CCB6C75000952FE /* RecordButton.h */,
+				ABAA6A6D1CCB6C75000952FE /* RecordButton.m */,
 				E5BD69F11CCB58050058D8AD /* Main.storyboard */,
 				E5BD69F41CCB58050058D8AD /* Assets.xcassets */,
 				E5BD69F61CCB58050058D8AD /* LaunchScreen.storyboard */,
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAA6A6E1CCB6C75000952FE /* RecordButton.m in Sources */,
 				E5BD69F01CCB58050058D8AD /* ViewController.m in Sources */,
+				ABAA6A6B1CCB6C4B000952FE /* UIControl+ActionRecord.m in Sources */,
 				E5BD69ED1CCB58050058D8AD /* AppDelegate.m in Sources */,
 				E5BD6A1C1CCB5CBF0058D8AD /* README.MD in Sources */,
 				E5BD69EA1CCB58050058D8AD /* main.m in Sources */,
@@ -502,6 +514,7 @@
 				E5BD6A141CCB58050058D8AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5BD6A151CCB58050058D8AD /* Build configuration list for PBXNativeTarget "RunTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				E5BD6A171CCB58050058D8AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5BD6A181CCB58050058D8AD /* Build configuration list for PBXNativeTarget "RunTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				E5BD6A1A1CCB58050058D8AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

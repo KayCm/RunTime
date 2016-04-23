@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RecordButton.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    RecordButton *Btn = [[RecordButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    Btn.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:Btn];
+    
+    [Btn addTarget:self action:@selector(Click) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+}
+
+
+-(void)Click
+{
+    NSLog(@"Click");
 }
 
 - (void)didReceiveMemoryWarning {
