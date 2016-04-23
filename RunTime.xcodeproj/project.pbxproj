@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABAA6A6B1CCB6C4B000952FE /* UIControl+ActionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A6A1CCB6C4B000952FE /* UIControl+ActionRecord.m */; };
 		ABAA6A6E1CCB6C75000952FE /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A6D1CCB6C75000952FE /* RecordButton.m */; };
-		E5BD69EA1CCB58050058D8AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD69E91CCB58050058D8AD /* main.m */; };
-		E5BD69ED1CCB58050058D8AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD69EC1CCB58050058D8AD /* AppDelegate.m */; };
+		ABAA6A701CCB81E6000952FE /* dylib1.o in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAA6A6F1CCB81E6000952FE /* dylib1.o */; };
+		ABAA6A741CCB8238000952FE /* UIControl+ActionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A731CCB8238000952FE /* UIControl+ActionRecord.m */; };
+		ABAA6A791CCB8266000952FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A761CCB8266000952FE /* AppDelegate.m */; };
+		ABAA6A7B1CCB8266000952FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA6A781CCB8266000952FE /* main.m */; };
 		E5BD69F01CCB58050058D8AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD69EF1CCB58050058D8AD /* ViewController.m */; };
 		E5BD69F31CCB58050058D8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD69F11CCB58050058D8AD /* Main.storyboard */; };
 		E5BD69F51CCB58050058D8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BD69F41CCB58050058D8AD /* Assets.xcassets */; };
@@ -38,20 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ABAA6A691CCB6C4B000952FE /* UIControl+ActionRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActionRecord.h"; sourceTree = "<group>"; };
-		ABAA6A6A1CCB6C4B000952FE /* UIControl+ActionRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionRecord.m"; sourceTree = "<group>"; };
 		ABAA6A6C1CCB6C75000952FE /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
 		ABAA6A6D1CCB6C75000952FE /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
+		ABAA6A6F1CCB81E6000952FE /* dylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.o; path = usr/lib/dylib1.o; sourceTree = SDKROOT; };
+		ABAA6A721CCB8238000952FE /* UIControl+ActionRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+ActionRecord.h"; path = "Category/UIControl+ActionRecord.h"; sourceTree = "<group>"; };
+		ABAA6A731CCB8238000952FE /* UIControl+ActionRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ActionRecord.m"; path = "Category/UIControl+ActionRecord.m"; sourceTree = "<group>"; };
+		ABAA6A751CCB8266000952FE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Supporting Files/AppDelegate.h"; sourceTree = "<group>"; };
+		ABAA6A761CCB8266000952FE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Supporting Files/AppDelegate.m"; sourceTree = "<group>"; };
+		ABAA6A771CCB8266000952FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		ABAA6A781CCB8266000952FE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		E5BD69E51CCB58050058D8AD /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5BD69E91CCB58050058D8AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E5BD69EB1CCB58050058D8AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E5BD69EC1CCB58050058D8AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E5BD69EE1CCB58050058D8AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E5BD69EF1CCB58050058D8AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E5BD69F21CCB58050058D8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5BD69F41CCB58050058D8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BD69F71CCB58050058D8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E5BD69F91CCB58050058D8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5BD69FE1CCB58050058D8AD /* RunTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD6A021CCB58050058D8AD /* RunTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeTests.m; sourceTree = "<group>"; };
 		E5BD6A041CCB58050058D8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAA6A701CCB81E6000952FE /* dylib1.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABAA6A711CCB8227000952FE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ABAA6A721CCB8238000952FE /* UIControl+ActionRecord.h */,
+				ABAA6A731CCB8238000952FE /* UIControl+ActionRecord.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		E5BD69DC1CCB58050058D8AD = {
 			isa = PBXGroup;
 			children = (
@@ -110,18 +122,14 @@
 		E5BD69E71CCB58050058D8AD /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
-				E5BD69EB1CCB58050058D8AD /* AppDelegate.h */,
-				E5BD69EC1CCB58050058D8AD /* AppDelegate.m */,
+				ABAA6A711CCB8227000952FE /* Category */,
 				E5BD69EE1CCB58050058D8AD /* ViewController.h */,
 				E5BD69EF1CCB58050058D8AD /* ViewController.m */,
-				ABAA6A691CCB6C4B000952FE /* UIControl+ActionRecord.h */,
-				ABAA6A6A1CCB6C4B000952FE /* UIControl+ActionRecord.m */,
 				ABAA6A6C1CCB6C75000952FE /* RecordButton.h */,
 				ABAA6A6D1CCB6C75000952FE /* RecordButton.m */,
 				E5BD69F11CCB58050058D8AD /* Main.storyboard */,
 				E5BD69F41CCB58050058D8AD /* Assets.xcassets */,
 				E5BD69F61CCB58050058D8AD /* LaunchScreen.storyboard */,
-				E5BD69F91CCB58050058D8AD /* Info.plist */,
 				E5BD69E81CCB58050058D8AD /* Supporting Files */,
 			);
 			path = RunTime;
@@ -130,7 +138,11 @@
 		E5BD69E81CCB58050058D8AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5BD69E91CCB58050058D8AD /* main.m */,
+				ABAA6A751CCB8266000952FE /* AppDelegate.h */,
+				ABAA6A761CCB8266000952FE /* AppDelegate.m */,
+				ABAA6A771CCB8266000952FE /* Info.plist */,
+				ABAA6A781CCB8266000952FE /* main.m */,
+				ABAA6A6F1CCB81E6000952FE /* dylib1.o */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,8 +173,8 @@
 			buildConfigurationList = E5BD6A121CCB58050058D8AD /* Build configuration list for PBXNativeTarget "RunTime" */;
 			buildPhases = (
 				E5BD69E11CCB58050058D8AD /* Sources */,
-				E5BD69E21CCB58050058D8AD /* Frameworks */,
 				E5BD69E31CCB58050058D8AD /* Resources */,
+				E5BD69E21CCB58050058D8AD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,10 +297,10 @@
 			files = (
 				ABAA6A6E1CCB6C75000952FE /* RecordButton.m in Sources */,
 				E5BD69F01CCB58050058D8AD /* ViewController.m in Sources */,
-				ABAA6A6B1CCB6C4B000952FE /* UIControl+ActionRecord.m in Sources */,
-				E5BD69ED1CCB58050058D8AD /* AppDelegate.m in Sources */,
+				ABAA6A741CCB8238000952FE /* UIControl+ActionRecord.m in Sources */,
 				E5BD6A1C1CCB5CBF0058D8AD /* README.MD in Sources */,
-				E5BD69EA1CCB58050058D8AD /* main.m in Sources */,
+				ABAA6A7B1CCB8266000952FE /* main.m in Sources */,
+				ABAA6A791CCB8266000952FE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RunTime/Info.plist;
+				INFOPLIST_FILE = "RunTime/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = COM.M1989.RunTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RunTime/Info.plist;
+				INFOPLIST_FILE = "RunTime/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = COM.M1989.RunTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";

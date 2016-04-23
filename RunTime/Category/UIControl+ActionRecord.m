@@ -9,6 +9,7 @@
 #import "UIControl+ActionRecord.h"
 
 #import <objc/runtime.h>
+#import <objc/message.h>
 
 @implementation UIControl (ActionRecord)
 
@@ -78,6 +79,10 @@
     
     NSLog(@"Touch"); //记录日志
     
+    
+//     void(*action)(id, SEL) = (void *)objc_msgSend;
+//    
+//    action()
 }
 
 
