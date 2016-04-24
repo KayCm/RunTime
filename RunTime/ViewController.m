@@ -29,7 +29,7 @@
     [Btn addTarget:self action:@selector(Click) forControlEvents:UIControlEventTouchUpInside];
     
     
-    //RunTime
+    //Run
 }
 
 
